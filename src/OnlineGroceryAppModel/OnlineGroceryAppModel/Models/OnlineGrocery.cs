@@ -11,7 +11,7 @@ namespace OnlineGroceryAppModel.Models
 		// ID, OnlineGroceryId, OnlineGroceryID
 		public int Id { get; set; }
 		public string FoodName { get; set; }
-		public int FoodCost { get; set; }
+		public double FoodCost { get; set; }
 		public string FoodType { get; set; }
 		public int FoodQuantity { get; set; }
 		public DateTime PublishedOn { get; set; }
